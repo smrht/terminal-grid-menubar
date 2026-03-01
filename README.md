@@ -85,7 +85,7 @@ latest GitHub release.
 
 Releases page: [GitHub Releases](../../releases)
 
-1. Download `TerminalGridMenubar-v1.0.0-macos.zip` from Releases.
+1. Download `TerminalGridMenubar-v1.0.1-macos.zip` from Releases.
 2. Unzip it.
 3. Move `TerminalGridMenubar.app` to `/Applications`.
 4. Open the app once, then grant permissions in System Settings.
