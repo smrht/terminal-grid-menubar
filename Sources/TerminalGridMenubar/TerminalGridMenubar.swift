@@ -1458,6 +1458,10 @@ final class TerminalWindowTiler {
 
             repeat with w in targetWindows
                 try
+                    if visible of w is false then
+                        -- Skip windows that are not visible in the current Space.
+                        -- This keeps tiling behavior aligned with what the user currently sees.
+                    else
                     try
                         if miniaturized of w is true then
                             set miniaturized of w to false
@@ -1473,6 +1477,7 @@ final class TerminalWindowTiler {
                     end try
 
                     set end of outLines to ((wid as text) & "|" & (item 1 of b as text) & "|" & (item 2 of b as text) & "|" & (item 3 of b as text) & "|" & (item 4 of b as text) & "|" & (fs as text))
+                    end if
                 on error
                     -- Skip invalid window references that sometimes appear in Terminal's scripting bridge.
                 end try
