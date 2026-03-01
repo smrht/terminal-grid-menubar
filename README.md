@@ -30,7 +30,7 @@ Claude runs.
 
 Menu preview:
 
-![TerminalGridMenubar menu (sanitized)](assets/images/menubar-menu-sanitized.png)
+![TerminalGridMenubar menu](assets/images/menu-preview.png)
 
 ## Requirements
 
