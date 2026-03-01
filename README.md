@@ -28,7 +28,7 @@ Claude runs.
 
 ## Screenshot
 
-Privacy-safe menu preview (terminal content is blurred):
+Menu preview:
 
 ![TerminalGridMenubar menu (sanitized)](assets/images/menubar-menu-sanitized.png)
 
