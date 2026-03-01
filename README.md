@@ -26,6 +26,12 @@ Claude runs.
   - Highlight remains until you interact with that tab
   - Finished runs are queued for review mode
 
+## Screenshot
+
+Privacy-safe menu preview (terminal content is blurred):
+
+![TerminalGridMenubar menu (sanitized)](assets/images/menubar-menu-sanitized.png)
+
 ## Requirements
 
 - macOS 13 or newer
